@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seguro</title>
+</head>
+<body>
+    <h1>Seguros</h1>
+
+    <form>
+        
+        <input type="radio" name="modelo" id="seat">
+        <label for="seat">SEAT</label><br><br>
+
+        <input type="radio" name="modelo" id="renault">
+        <label for="renault">RENAULT</label><br><br>
+        
+        <input type="checkbox" id="18"><label for="18">> 18</label><br><br>
+        <input type="checkbox" id="2"><label for="2">> 2 años de carnet</label><br><br>
+
+        <label for="total">TOTAL: </label><input type="text" name="total" id="total"><br><br>
+
+        <button type="button" onclick="calcular()">CALCULAR</button>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
